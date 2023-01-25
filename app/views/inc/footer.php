@@ -10,7 +10,7 @@
             $('.tm-product-name').on('click', function () {
                 window.location.href = "edit-product.html";
             });
-        })
+        }) 
     </script> -->
        <script src="<?= URLROOT;?>/js/jquery-3.3.1.min.js"></script>
     <!-- https://jquery.com/download/ -->
@@ -25,6 +25,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
     <script src="<?= URLROOT;?>/js/jquery-3.6.0.min.js"></script>
     <script src="<?= URLROOT;?>/js/script.js"></script>
+    <script src="<?= URLROOT;?>/js/validationForm.js"></script>
     
 
 

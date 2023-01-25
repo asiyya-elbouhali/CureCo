@@ -108,13 +108,13 @@ a:focus {
   padding: 15px 20px;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+/* .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav a:hover {
   background-color: #e6e6e6;
-}
+} */
 
 .nav-item {
   margin-right: 30px;

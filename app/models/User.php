@@ -46,6 +46,12 @@
       $this->db->bind(':email', $email);
 
       $row = $this->db->single();
+
+    if($row==false){
+
+      return false;
+
+    }
       
       $hashed_password = $row->password;
       if($password == $hashed_password){

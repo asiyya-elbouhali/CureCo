@@ -1,26 +1,9 @@
 
-let deleteCategory = document.getElementById('deleteCategory');
-
-    deleteCategory.addEventListener('click', function(){
-
-        let deleteC = document.getElementById('delete');
-        // deleteC.style.display = "block";
-
-        deleteC.click();
-
-
-
-});
-
-
-
-
 
 
 // wrong accoiunt message
 
-let wrong_account = document.getElementById('wrong_account');
-    wrong_account.style.color = 'orangered';
+
     
 
 
@@ -29,9 +12,12 @@ let wrong_account = document.getElementById('wrong_account');
 // Login fields verification
 
 let submitLogin =document.getElementById('submitLogin');
-// alert(submitLogin);
+
+    // alert(submitLogin);
 
 submitLogin.addEventListener('submit', function(e){
+
+    // alert ('js is working');
 
     let  loginEmail = document.getElementById('loginEmail');
     let loginPassword = document.getElementById('loginPassword');
@@ -65,7 +51,21 @@ submitLogin.addEventListener('submit', function(e){
 
 
 
+let wrong_account = document.getElementById('wrong_account');
+    wrong_account.style.color = 'orangered';
 
+// let deleteCategory = document.getElementById('deleteCategory');
+
+//     deleteCategory.addEventListener('click', function(){
+
+//         let deleteC = document.getElementById('delete');
+//         // deleteC.style.display = "block";
+
+//         deleteC.click();
+
+
+
+// });
 
 
 

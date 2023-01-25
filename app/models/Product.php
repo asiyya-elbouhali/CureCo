@@ -102,6 +102,25 @@
       return $row;
     }
 
+    public function checkProductExistance($product){
+
+    $this->db->query("SELECT * FROM products WHERE nom = '$product '");
+    $row = $this->db->single();
+    if($row==false){
+      return false;
+    }
+  
+    else{
+      return true;
+    } 
+    
+
+    }
+
+
+
+
+
     // Add Post
     public function addProduct($data){
       // Prepare Query

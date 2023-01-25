@@ -150,7 +150,7 @@
                         <span class="sr-only">Previous</span>
                       </a>
                     </li>
-                    <?php for($i = 1 ; $i <= 5 ; $i++): ?>
+                    <?php for($i = 1 ; $i <= 7 ; $i++): ?>
                     <li class="page-item"><a class="page-link" href="<?= URLROOT?>/products/index?page=<?=$i;?>"><?= $i;?></a></li>
                     <?php endfor ;?>
                   
@@ -175,8 +175,7 @@
                         <h2 class="tm-block-title d-inline-block">Product Categories</h2>
                         <table class="table table-hover table-striped mt-3 table1">
                             <tbody>
-                                <?php foreach ($data['categories'] as $category)
-                                    : ?>
+                                <?php foreach ($data['categories'] as $category): ?>
                                 <tr>
                                     <td><?= $category->nom; ?></td> 
                                     <td class="tm-trash-icon-cell">

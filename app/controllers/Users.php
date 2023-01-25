@@ -128,8 +128,7 @@
 
           if($loggedInUser){
             // User Authenticated!
-           
-           
+                       
             $this->createUserSession($loggedInUser);
 
            

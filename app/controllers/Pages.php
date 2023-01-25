@@ -21,6 +21,14 @@
       $this->view('users/login', $data);
     }
    
+    public function home(){
+     
+
+      // Load homepage/index view
+      $this->view('pages/home');
+    }
+
+
     public function about(){
       //Set Data
       $data = [

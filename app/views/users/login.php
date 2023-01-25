@@ -34,7 +34,7 @@
                                 <div class="input-group mt-3">
                                     <input type="submit" class="btn btn-primary d-inline-block mx-auto" value="Login" id="">
                                 </div>
-                            </form>
+                            </form> 
                             <div class="input-group mt-3">
                                     <p><em>You don't have an account?</em></p>
                                     <div class="input-group mt-3">
