@@ -33,7 +33,13 @@ body {
 }
 
 .bg02 {
-	background-image: url(../img/medical-banner-with-doctor-wearing-goggles.jpg);
+	background-image: url(../img/wengang-zhai-BFB7ydn1-DI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .bg03 {

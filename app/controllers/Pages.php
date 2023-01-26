@@ -1,6 +1,9 @@
 <?php
   class Pages extends Controller{
+  protected $productModel;
     public function __construct(){
+      $this->productModel = $this->model('Product');
+
      
     }
 
@@ -22,10 +25,15 @@
     }
    
     public function home(){
-     
+
+     $homeProducts = $this->productModel->getProducts();
+
+    $data = [
+      'homeProducts' => $homeProducts,
+    ];
 
       // Load homepage/index view
-      $this->view('pages/home');
+      $this->view('pages/home', $data);
     }
 
 
